@@ -171,7 +171,7 @@ body {
 }
 
 .font-bold {
-  font-weight: 600;
+  font-weight: bold;
 }
 
 .img {
@@ -179,4 +179,9 @@ body {
   max-height: 60px;
   max-width: 60px;
   border-radius: 5px;
+}
+
+.rounded-circle {
+  border-radius: 50% !important;
+  max-height: 150px;
 }

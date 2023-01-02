@@ -7,15 +7,6 @@
   <title>Sign In | Litra</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="style.css" rel="stylesheet">
-  <style>
-    body {
-      background: url('./assets/bg-1.jpeg') no-repeat center center fixed;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-    }
-  </style>
 </head>
 
 <body>
@@ -46,29 +37,34 @@
   <div class="wrapper wrapper-content">
     <div class="columns">
       <div class="row">
-        <div class="col-md-8 offset-md-2">
+        <div class="col-md-8">
           <div class="box-content" style="border-radius: 20px;">
-            <h3 style="text-align: center; margin-bottom: 30px">Sign In</h3>
-            <form method="post" action="home-1.php">
+            <h3 style="text-align: center; margin-bottom: 30px">Register</h3>
+            <form method="post" action="#">
               <div class="form-group">
                 <input type="text" name="username" id="username" class="form-control" placeholder="Username">
               </div>
               <div class="form-group">
+                <input type="email" name="email" id="email" class="form-control" placeholder="Email">
+              </div>
+              <div class="form-group">
                 <input type="password" name="password" id="password" class="form-control" placeholder="Password">
               </div>
-              <div class="row">
-                <div class="col-md-6">
-                  <a href="#">Don't Have an Account?</a>
-                </div>
-                <div class="col-md-6" style="text-align: right;">
-                  <a href="#">Forgot Password?</a>
-                </div>
+              <div class="form-group">
+                <input type="password" name="konfirm_password" id="konfirm_password" class="form-control" placeholder="Confirm Password">
+              </div>
+              <div class="form-check">
+                <input type="checkbox" name="term" id="term" class="form-check-input">
+                <label class="form-check-label" for="exampleCheck1">Agree with <b><u>Terms and Condition</u></b> and <b><u>Privacy Statement</u></b></label>
               </div>
               <center style="margin-top: 20px;">
                 <button type="submit" class="btn btn-light">Sign In</button>
               </center>
             </form>
           </div>
+        </div>
+        <div class="col-md-2">
+          <img src="./assets/2.png" style="max-height: 350px; padding-left: 50px">
         </div>
       </div>
     </div>

@@ -11,7 +11,6 @@
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000B43;">
-    <a class="navbar-brand" href="#">Litra Logo</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -36,20 +35,25 @@
     <div class="columns">
       <div class="row">
         <div class="col-md-6">
-          <h2 class="font-bold">Logo Litra</h2>
-          <p>
-            Liter Trap is on a mission to significantly reduce the amount of plastics that enter the seas and oceans.
-          </p>
-          <button class="btn btn-light">Sign In</button>
+          <div class="box">
+            <!-- <h2 class="font-bold">Logo Litra</h2> -->
+            <img src="./assets/logo.png" width="250px" style="margin-left: -20px;">
+            <h6>
+              Liter Trap is on a mission to significantly reduce the amount of plastics that enter the seas and oceans.
+            </h6>
+            <button class="btn btn-light btn-lg btn-block">Sign In</button>
+          </div>
         </div>
-        <div class="col-md-6">
-          <img src="trash-bags.png">
+        <div class="col-md-6" style="padding-left: 100px">
+          <img src="./assets/1.png" height="350px">
         </div>
       </div>
     </div>
   </div>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
